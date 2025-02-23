@@ -1,0 +1,22 @@
+Snippet 4
+public class DoWhileLoop { 
+ public static void main(String[] args) { 
+ int i = 1; 
+ do { 
+ System.out.print(i + " "); 
+ i++; 
+ } while (i < 5); 
+ System.out.println(i); 
+ } 
+} 
+// Guess the output of this do-while loop. 
+
+Dry run:
+	i	print	condition
+	1	1	true
+	2	2	true
+	3	3	true
+	4	4	false(i is increamented to 5 and condition is false)
+
+Output:
+	1 2 3 4 5

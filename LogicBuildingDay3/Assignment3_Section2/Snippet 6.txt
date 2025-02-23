@@ -1,0 +1,18 @@
+Snippet 6: 
+public class IncrementDecrement { 
+ public static void main(String[] args) { 
+ int x = 5; 
+ int y = ++x - x-- + --x + x++; 
+ System.out.println(y); 
+ } 
+} 
+// Guess the output of this code snippet. 
+
+Dry run:
+	x = 5  
+	y = ++x - x-- + --x + x++;
+	y = 6   - 6   + 4   + 4
+        y = 8
+
+Output:
+	8

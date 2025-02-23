@@ -1,0 +1,27 @@
+Snippet 5: 
+public class ConditionalLoopOutput { 
+ public static void main(String[] args) { 
+ int num = 1; 
+ for (int i = 1; i <= 4; i++) { 
+ if (i % 2 == 0) { 
+ num += i; 
+ } else { 
+ num -= i; 
+ } 
+ } 
+ System.out.println(num); 
+ } 
+} 
+// Guess the output of this loop. 
+
+Dry Run:
+	i	for condition	if condition	num    	else condition	num
+	1	true		false		---	true		1 - 1 = 0
+	2	true		true		0+2=2	----		----
+	3	true		false		----	true		2 - 3 = -1
+	4	true		true		-1+4=3 ------		------
+	5	false
+
+Output:
+	3
+	
