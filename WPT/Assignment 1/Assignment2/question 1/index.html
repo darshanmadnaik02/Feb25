@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Css</title>
+    <style>
+        input{
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            background-color: #32a287;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nesciunt laborum, itaque ad ratione earum magni perferendis dicta laboriosam doloribus quidem harum? Aspernatur, provident eum? Ut libero quam natus voluptate nam reprehenderit doloremque, architecto dicta tenetur aliquam animi! Itaque modi nemo non optio placeat, libero, veritatis sunt, quod nostrum voluptas blanditiis laborum expedita enim esse repellat harum id eos similique illum repellendus. Officiis id optio dicta distinctio quisquam? Quos laudantium praesentium, nulla mollitia sapiente reiciendis possimus atque nemo eos, suscipit aliquam veritatis facere odio hic culpa id magnam cum reprehenderit laboriosam sint, omnis distinctio! Voluptates cum qui hic id quasi.</p>
+    <input type="button" value="Change Css" onclick="changeCss()">
+
+    <script>
+        const changeCss = () =>{
+            let ele = document.getElementById("para");
+            ele.style.fontFamily = "Times New Roman";
+            ele.style.fontSize = "30px";
+            ele.style.color = "#44cf6c";
+        }
+        
+    </script>
+</body>
+</html>

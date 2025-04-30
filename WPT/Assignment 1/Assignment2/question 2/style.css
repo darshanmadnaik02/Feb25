@@ -1,0 +1,21 @@
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 80px auto;
+    border-radius: 20px;
+    padding: 20px 20px; 
+    background-color: #c5f4e0;
+
+}
+.btn{
+    border: 2px solid;
+    background-color: #0f956a;
+    border-color: #0f956a;
+    color: white;
+    
+    
+}
+.btn:hover{
+    background-color: #12ba85;
+    color: white;
+}
