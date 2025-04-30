@@ -1,0 +1,33 @@
+.container{
+    margin: 30px;
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.summary{
+    text-align: center;
+    font-weight: bold;
+}
+.summary{
+    margin: 0;
+    padding: 5px 0;
+}
+.heading{
+    text-align: center;
+    background-color: lightgrey;
+    font-weight: bold;
+    padding: 1px 0;
+}
+.innerHead p{
+    margin: 0;
+    padding: 1px;
+}
+.innerHead h5{
+    margin: 0;
+    padding: 5px 0;
+}
+.skillInner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

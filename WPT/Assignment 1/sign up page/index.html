@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlightEase - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fa;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #003366;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #0077cc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    .quick-links a {
+      display: inline-block;
+      margin: 5px 10px;
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .quick-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>✈️ FlightEase - Your Travel Companion</h1>
+</header>
+
+<div class="container">
+
+  <section>
+    <h2>🔍 Search & Book Flights</h2>
+    <form>
+      <label for="from">From:</label>
+      <input type="text" id="from" name="from" placeholder="City or Airport">
+
+      <label for="to">To:</label>
+      <input type="text" id="to" name="to" placeholder="City or Airport">
+
+      <label for="depart">Departure Date:</label>
+      <input type="date" id="depart" name="depart">
+
+      <label for="return">Return Date (optional):</label>
+      <input type="date" id="return" name="return">
+
+      <label for="passengers">Passengers:</label>
+      <select id="passengers" name="passengers">
+        <option>1</option>
+        <option>2</option>
+        <option>3+</option>
+      </select>
+
+      <label for="class">Class:</label>
+      <select id="class" name="class">
+        <option>Economy</option>
+        <option>Business</option>
+        <option>First</option>
+      </select>
+
+      <button type="submit">🔎 Search Flights</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>🧳 Manage My Itinerary</h2>
+    <p>View and manage your upcoming trips.</p>
+    <button>🔐 Sign In to View Itinerary</button>
+  </section>
+
+  <section>
+    <h2>📢 Announcements / Travel Alerts</h2>
+    <ul>
+      <li>🆕 New routes added to Asia!</li>
+      <li>🛑 COVID-19 travel updates available here</li>
+      <li>🌞 Summer deals now live – save up to 30%!</li>
+    </ul>
+  </section>
+
+  <section class="quick-links">
+    <h2>🛠️ Quick Links</h2>
+    <a href="#">Contact Support</a>
+    <a href="#">Baggage Policy</a>
+    <a href="#">Refund & Cancellation</a>
+    <a href="#">Travel Insurance</a>
+    <a href="#">Loyalty Program</a>
+  </section>
+
+  <section>
+    <h2>👤 Account</h2>
+    <button>Sign In / Register</button>
+    <p><a href="#">My Profile</a> | <a href="#">Past Bookings</a> | <a href="#">Payment Methods</a></p>
+  </section>
+
+</div>
+
+</body>
+</html>
